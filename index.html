@@ -28,7 +28,11 @@
     <section class="storage-range">
   
       <h2 class="storage-range__title">You’ve used <span class="storage-range__title-value">815 GB</span> of your storage</h2>
-      <input type="range" name="range-storage" id="range-storage" class="storage-range__bar" disabled value="815" min="0" max="1000">
+
+      <div class="storage-range__track">
+        <div class="storage-range__slider" style="--storage-value: 815; --storage-max: 1000; --storage-min: 0"></div>
+      </div>
+
       <div class="storage-range__limits">
         <small class="storage-range__min-limit">0 GB</small>
         <small class="storage-range__max-limit">1000 GB</small>
@@ -41,12 +45,6 @@
     </section>
   </main>
 
-  
-  
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name</a>.
-  </div> -->
 </body>
 </html>
 
